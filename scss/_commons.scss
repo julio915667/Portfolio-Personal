@@ -1,0 +1,15 @@
+@mixin pb-pt($bottom, $top){
+padding-top: $top;
+padding-bottom: $bottom;
+}
+
+$shadows:(
+'shIcon':2px 2px black,
+'shH2':5px 5px 5px red
+);
+$colorIconFooter:(
+    'colorFb': #3b5998,
+    'colorGit': white,
+    'colorInst': #E1306C,
+    'colorLink': #215ddd
+);

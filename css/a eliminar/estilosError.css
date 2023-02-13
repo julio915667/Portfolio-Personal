@@ -1,0 +1,112 @@
+  /*page error*/
+  .heightError{
+    height: 100vh; 
+    backdrop-filter: blur(10px);
+   }
+   h1[class="fsEdit"]{
+     font-size: 8vw;
+     color: #fff;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     
+    outline: 6px solid red;
+    border-radius: 1px;
+
+   }
+
+   h2[class="fsEdit"]{
+     font-size: 7vw;
+     color: #fff;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+   }
+.BgImage{
+background-image: url("https://64.media.tumblr.com/afd3f8677304f108a973d6bac1580c9a/tumblr_n3keagYzdS1trzml2o1_500.gifv");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+   
+/* From uiverse.io by @Jedi-hongbin but edit for me Julian */
+.ButtonBack {
+ display: flex;
+ height: 3em;
+ width: 100px;
+ align-items: center;
+ justify-content: center;
+ background-color: #eeeeee4b;
+ border-radius: 3px;
+ letter-spacing: 1px;
+ transition: all 0.2s linear;
+ cursor: pointer;
+ border: none;
+ background: #fff;
+ width: 18vw;
+ height: 10vh;
+}
+
+.ButtonBack > svg {
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 20px;
+ transition: all 0.4s ease-in;
+}
+
+.ButtonBack:hover > svg {
+ font-size: 1.2em;
+ transform: translateX(-15px);
+}
+
+.ButtonBack:hover {
+ box-shadow: 9px 9px 33px red, -9px -9px 33px red;
+ transform: translateY(-2px);
+}
+.ButtonBack > span{
+ font-size: 3vw;
+}
+
+@media screen and (max-width:420px)  {
+ .ButtonBack{
+   width: 47vw;
+   height: 8vh;
+}
+h1[class="fsEdit"] {
+ font-size: 15vw;}
+ h2[class="fsEdit"]{
+   font-size: 8vw;
+ }
+ .ButtonBack > span {
+   font-size: 7vw;
+}
+ }
+ @media screen and (max-width:800px) and (min-width:420px)  {
+   .ButtonBack{
+     width: 26vw;
+     height: 8vh;
+ }
+ h1[class="fsEdit"] {
+   font-size: 11vw;}
+   h2[class="fsEdit"]{
+     font-size: 6vw;
+   }
+   .ButtonBack > span {
+     font-size: 5vw;
+ }
+   }
+   a{
+       text-decoration: none !important;
+     
+   }
+   footer{
+    color: #fff;
+    font-size:2vw;
+       bottom: 0;
+       position: absolute;
+   }
+   footer a{
+       color: red;
+   }
+   footer a:hover{
+       cursor: pointer;
+       opacity: 80%;
+       color:white;
+   }

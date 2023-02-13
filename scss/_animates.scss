@@ -1,0 +1,67 @@
+
+/*Animaciones de la Libreria ANIMATE.CSS*/
+.animate__bounceInDown,
+.animate__backInDown {
+    animation: backwards;
+    animation-duration: 2s;
+}
+
+.animate__backInRight {
+    animation-duration: 2s;
+}
+
+.animate__zoomIn {
+    animation-duration: 4s;
+}
+
+.animate__slideInDown {
+    animation-duration: 2s;
+
+}
+
+.animate__fadeInDownBig {
+    animation-duration: 2s;
+}
+
+.animate__fadeInLeft,
+.animate__slideInDown[class="Card col-6 wow animate__slideInDown mx-5 pt-3"] {
+    animation-duration: 4s;
+}
+
+.form-control1Size {
+    width: 77vw;
+}
+
+a.animate__slideOutDown[ class="btnRed mb-2 wow animate__slideOutDown animate__slideOutUp"] {
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+div h3[class="text-light fs-1 border-dark wow animate__fadeInDownBig text-uppercase mt-2 mb-2"] {    
+    font-family: 'League Gothic', sans-serif;
+    text-decoration-line: underline overline blink;
+    text-decoration-color: red;
+}
+
+/*Contacto color de barra*/
+.form-control1 {
+    caret-color: red;
+}
+
+
+
+a.btnRed[href="contacto.html"] {
+    &:active {
+        transform: scale(1.2);
+        transition: all .4s;
+    }
+}
+
+//boton de subida
+/*boton de subida*/
+.btn-scrolltop{
+   &:active {
+       color:$colorActive;
+       background-color:$colorBorderBtn;
+   } 
+}

@@ -1,0 +1,46 @@
+.ColorStaffH1 {
+    font-family: 'Times New Roman';
+    color: red;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.barra__Nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: red;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+
+    ul{
+        list-style: none;
+    display: flex;
+    margin-right: 10px;
+    li{
+        padding-right: 15px;
+        font-size: 1.4rem;
+        font-family: 'Open Sans', sans-serif;
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            background: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition-timing-function: ease-out;
+            transition-delay: .2s;
+            transition: background-size .3s;
+            &:hover{
+                color: red !important;
+                ;
+                background-size: 100% 2px;
+            }
+        }
+    }
+    }
+}

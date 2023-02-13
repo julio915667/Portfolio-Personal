@@ -1,0 +1,68 @@
+/* Grid Servicios*/
+.containerGridService {
+    display: grid;
+    grid-template-areas:
+        "NavServices"
+        "MainNavServices"
+        "FootGrid";
+}
+
+.GridServicesNav {
+    grid-area: NavServices;
+}
+
+.MainGridServices {
+    grid-area: MainNavServices;
+    height: 2200px;
+}
+.FooterGridServices {
+    grid-area: FootGrid;
+}
+
+/*Container Grid Portfolio*/
+.ContainerGridPort {
+    display: grid;
+    grid-template-areas:
+        "NavPort"
+        "MainPort"
+        "FootPort";
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+    width: 100vw;
+}
+
+.GridNavPort {
+    grid-area: NavPort;
+}
+
+.GridMainPort {
+    grid-area: MainPort;
+}
+
+.GridFootPort {
+    grid-area: FootPort;
+}
+
+/* Grid Contacto*/
+.GridContainerContact {
+    display: grid;
+    grid-template-areas:
+        "NavContact NavContact NavContact"
+        "MainContact MainContact MainContact"
+        "FooterContact FooterContact FooterContact";
+
+}
+
+.GridNavContact {
+    grid-area: NavContact;
+}
+
+.GridMainContact {
+    grid-area: MainContact;
+}
+
+.GridFooterContact {
+    grid-area: FooterContact;
+}

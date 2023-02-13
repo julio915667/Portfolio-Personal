@@ -1,0 +1,476 @@
+@media only screen and (max-width: 375px) and (min-width:280px) {
+    body{
+        height: 10500px;
+    }
+    .Card.col-6.mx-5.col-sm-12.wow.animate__zoomIn.pt-3.mb-5,.Card.col-6.wow.animate__zoomIn.mx-5.pt-3.mb-5, .Card.col-6.mx-5.col-sm-12.wow.animate__fadeInLeft.pt-3.mb-5,.Card.col-6.wow.animate__fadeInLeft.mx-5.pt-3.mb-5 {
+        width: 100vw !important;
+    }
+    .containerTitle1.seccionServicios{
+        h4{
+            font-size:20vw;
+        }
+    }
+    /*Archivo Index*/
+    .contendedor--Welcome {
+        div {
+            height: 1000px;
+
+            h2 {
+                font-size: 9vw;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .barra__Nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-right: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .ColorStaffH1 {
+        font-size: 6.3vw;
+    }
+
+    /*archivo sobre mi*/
+    .contenedor--sobremiText {
+        font-size: .8em;
+        line-height: 1.2;
+        width: 100vw;
+    }
+
+    .contendedor--sobremi {
+        div {
+            height: 1500px;
+
+            h3 {
+                color: white;
+                font-size: 2em;
+            }
+
+            img {
+                width: 170px;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+            margin-bottom: 0px;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 15vw;
+    }
+
+    figure {
+        width: 100vw;
+    }
+
+    .photoServiceTechPC {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 100%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 10vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 80vw;
+        height: 275px;
+    }
+
+   
+
+    .heightMain {
+        height: 9200px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:375px) {
+    body {
+        height: 10500px; }
+      .Card.col-6.mx-5.col-sm-12.wow.animate__zoomIn.pt-3.mb-5, .Card.col-6.wow.animate__zoomIn.mx-5.pt-3.mb-5, .Card.col-6.mx-5.col-sm-12.wow.animate__fadeInLeft.pt-3.mb-5, .Card.col-6.wow.animate__fadeInLeft.mx-5.pt-3.mb-5 {
+        width: 23rem !important; }
+      .containerTitle1.seccionServicios h4 {
+        font-size: 20vw; }
+      /*Archivo Index*/
+      .contendedor--Welcome div {
+        height: 1000px; }
+        .contendedor--Welcome div h2 {
+          font-size: 9vw; }
+        .contendedor--Welcome div h3 {
+          font-size: 1.7rem; }
+      .barra__Nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center; }
+        .barra__Nav ul {
+          list-style: none;
+          display: flex;
+          margin-right: 10px;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center; }
+      .ColorStaffH1 {
+        font-size: 1.3rem; }
+      /*archivo sobre mi*/
+      .contenedor--sobremiText {
+        font-size: .8em;
+        line-height: 1.2;
+        width: 100vw; }
+      .contendedor--sobremi div {
+        height: 1500px; }
+        .contendedor--sobremi div h3 {
+          color: white;
+          font-size: 2em; }
+        .contendedor--sobremi div img {
+          width: 170px; }
+      /*archivo servicios*/
+      .contendedorServices {
+        height: 700px; }
+      .MainGridServices {
+        width: 100vw;
+        height: 3000px; }
+      .StyleTitleOfThePage h4 {
+        font-size: 18vw;
+        margin-bottom: 0px; }
+      .StyleTitleServiceTechPC,
+      .StyleTitleDesarrolloWeb {
+        font-size: 15vw; }
+      figure {
+        width: 100vw; }
+      .photoServiceTechPC {
+        width: 90vw;
+        height: 50vh; }
+      .photoDesarolloWeb {
+        width: 90vw;
+        height: 50vh; }
+      .TextStyle {
+        width: 100%; }
+      /*Archivo Portfolio*/
+      .SectionServices {
+        width: 100vw; }
+      .GridMainPort {
+        width: 100vw;
+        height: 3000px; }
+      .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 10vw; }
+      .photoPage1,
+      .photoPage2 {
+        width: 80vw;
+        height: 275px; }
+      .heightMain {
+        height: 9200px !important; }
+}
+
+@media only screen and (min-width: 600px) and (max-width:815px) {
+    body{
+        height:10500px;
+    }
+    .containerTitle1.seccionServicios h4 {
+        font-size: 15vw; }
+    .heightMain {
+        height: 9200px !important;
+    }
+
+    .contendedor--Welcome {
+        div {
+            h2 {
+                font-size: 9vw;
+            }
+
+            h3 {
+                font-size: 2.7rem;
+            }
+        }
+    }
+
+    .GridNavAbout {
+        width: 100vw;
+    }
+
+    /*archivo sobre mi*/
+    .contenedor--sobremiText {
+        font-size: 1.1em;
+        line-height: 1.2;
+        width: 100vw;
+    }
+
+    .contendedor--sobremi {
+        div {
+            h3 {
+                color: white;
+                font-size: 2em;
+            }
+
+            img {
+                width: 250px;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 13vw;
+    }
+
+    figure {
+        width: 100vw;
+    }
+
+    .photoServiceTechPC {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 10vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width:815px) and (max-width:1016px) {
+    .contendedor--Welcome {
+        div {
+            h2 {
+                font-size: 8vw;
+            }
+        }
+    }
+
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 12vw;
+        }
+
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 7vw;
+    }
+
+    figure {
+        width: 50vw;
+    }
+
+    .photoServiceTechPC {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .photoDesarolloWeb {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .TextStyle {
+        width: 95%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+
+        figure {
+            width: 70vw;
+            height: 50%;
+        }
+
+        p.TextStyle {
+            font-size: 2vw;
+        }
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 9vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 45vw;
+    }
+
+    
+}
+
+@media screen and (min-width:1016px) and (max-width:1280px) {
+/*index*/
+.contendedor--Welcome div h2{
+    font-size: 9vw;
+  }
+    /*archivo servicios*/
+    .contendedorServices {
+        height: 700px;
+    }
+
+    .MainGridServices {
+        width: 100vw;
+        height: 3000px;
+    }
+
+    .StyleTitleOfThePage {
+        h4 {
+            font-size: 18vw;
+        }
+    }
+
+    .StyleTitleServiceTechPC,
+    .StyleTitleDesarrolloWeb {
+        font-size: 5vw;
+    }
+
+    figure {
+        width: 70%;
+    }
+
+    .TextStyle {
+        width: 100%;
+    }
+
+    /*Archivo Portfolio*/
+    .SectionServices {
+        width: 100vw;
+    }
+
+    .GridMainPort {
+        width: 100vw;
+        height: 3000px;
+
+        figure {
+            width: 60vw;
+            height: 50%;
+        }
+
+        p.TextStyle {
+            font-size: 2vw;
+        }
+    }
+
+    .StyleTitleOfThePage .StyleOfTheMediaQuery {
+        font-size: 9vw;
+    }
+
+    .photoPage1,
+    .photoPage2 {
+        width: 45vw;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1319px) {
+    .MainGridServices {
+        height: 2700px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1042px) {
+    a[class="nav-link active text-light"]{
+        font-size:2.3vw;
+    }
+}

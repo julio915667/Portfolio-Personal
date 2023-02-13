@@ -1,0 +1,104 @@
+footer {
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+    button {
+        background: none !important;
+        border: 0;
+    }
+
+    @include pb-pt(0px, 0px);
+}
+
+h3.redesSociales {
+    padding: 10px;
+}
+
+.redesSociales--icons {
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+//iconos de Footer
+//extend
+/*extend es iconSizeAndshadow*/
+/*iconos de Footer*/
+.iconSizeAndshadow {
+    font-size: 3rem;
+    text-shadow: map-get($map:$shadows, $key:'shIcon');
+}
+
+.iconHoverRed {
+    color: #ff0000;
+}
+
+.icono-facebook {
+    @extend .iconSizeAndshadow;
+    // font-size: 3rem;
+    color: map-get($map:$colorIconFooter, $key:'colorFb');
+    // color: rgb(59, 89, 152);
+    // text-shadow: 2px 2px black;
+
+    &:hover {
+        @extend .iconHoverRed;
+        //color: #ff0000;
+    }
+}
+
+.icono-github {
+    @extend .iconSizeAndshadow;
+    //font-size: 3rem;
+    color: map-get($map:$colorIconFooter, $key:'colorGit');
+    // color: rgb(255, 255, 255);
+    //  text-shadow: 2px 2px black;
+
+    &:hover {
+        @extend .iconHoverRed;
+        // color: #ff0000;
+    }
+}
+
+.icono-instagram {
+    @extend .iconSizeAndshadow;
+    // font-size: 3rem;
+    // color: #E1306C;
+    //  text-shadow: 2px 2px black;
+    color: map-get($map:$colorIconFooter, $key:'colorInst');
+
+    &:hover {
+        @extend .iconHoverRed;
+        //color: #ff0000;
+    }
+}
+
+.icono-linkedin {
+    @extend .iconSizeAndshadow;
+    //font-size: 3rem;
+    //color: rgb(33, 93, 221);
+    //text-shadow: 2px 2px black;
+    color: map-get($map:$colorIconFooter, $key:'colorLink');
+
+    &:hover {
+        @extend .iconHoverRed;
+        // color: #ff0000;
+    }
+}
+
+.copyright {
+    font-size: 20px;
+    color: white;
+    padding: 5px 0 0;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            color: #ff0000;
+        }
+    }
+}
